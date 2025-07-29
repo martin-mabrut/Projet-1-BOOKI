@@ -418,7 +418,34 @@ a {
     padding: 20px 19px 20px 19px;
 }
 
+/****** Footer ***********/
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--main-bg-color);
+}
+
+.list-footer {
+    padding: 25px 20px 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}   
+
+.list-footer h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.list-footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px;
+}
 
 
 
