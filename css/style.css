@@ -318,7 +318,6 @@ a {
 
 .hebergements a {
     display: block;
-    height: 207.25px;
 }
 
 .hebergements .card {
@@ -341,8 +340,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 0px 15px 0px 15px;
-    gap: 16px;
-  
+    gap: 16px;  
 }
 
 .hebergements .card-txt {
@@ -351,8 +349,13 @@ a {
     gap: 10px;
 }
 
+.hebergements .card-txt h3 {
+    width: 100%;
+}
+
 .hebergements .card-rating {
     font-size: 19px;
+    padding-bottom: 5.5px;
 }
 
 .hebergements .afficherPlus {
@@ -446,7 +449,11 @@ a {
 }
 
 .activites h3 {
-    padding: 20px 19px 20px 19px;
+    padding: 0 19px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
 }
 
 /****** Footer ***********/
@@ -527,6 +534,15 @@ footer {
         font-size: 13px;
     }
 
+    /****** Activites *****/
+
+    .activites .card {
+        height: 270px;
+    }
+
+  .activites-grid img {
+        height: 200px;
+    } 
 }  
 
    
